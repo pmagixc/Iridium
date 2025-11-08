@@ -11,17 +11,24 @@
   "author": "Alg",
   "license": "ISC",
   "dependencies": {
-    "buffer-split": "^1.0.0",
-    "chalk": "^4.1.2",
-    "delimiter-stream": "^3.0.1",
-    "ip-packet": "^1.1.0",
-    "jsbi": "^4.3.0",
-    "json-bigint": "^1.0.0",
+    "buffer-split": "1.0.0",
+    "chalk": "4.1.2",
+    "delimiter-stream": "3.0.1",
+    "ip-packet": "1.1.0",
+    "jsbi": "4.3.0",
+    "json-bigint": "1.0.0",
     "node-kcp-token": "github:TheLostTree/node-kcp",
-    "pcap-parser": "^0.2.1",
-    "protobufjs": "^7.2.4",
-    "udp-packet": "^2.0.0",
-    "udp-proxy": "^1.2.0",
-    "ws": "^8.4.2"
+    "pcap-parser": "0.2.1",
+    "protobufjs": "7.2.4",
+    "udp-packet": "2.0.0",
+    "udp-proxy": "1.2.0",
+    "ws": "8.4.2"
+  },
+  "devDependencies": {
+    "@rollup/plugin-json": "^6.1.0",
+    "@rollup/plugin-typescript": "^12.3.0",
+    "svelte-preprocess": "^6.0.3",
+    "tslib": "^2.8.1",
+    "typescript": "^5.9.3"
   }
 }
